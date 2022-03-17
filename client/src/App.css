@@ -1,0 +1,136 @@
+:root {
+    --color-primary: #5ec576;
+    --color-secondary: #ffcb03;
+    --color-tertiary: #ff585f;
+    --color-primary-darker: #4bbb7d;
+    --color-secondary-darker: #ffbb00;
+    --color-tertiary-darker: #fd424b;
+    --color-primary-opacity: #5ec5763a;
+    --color-secondary-opacity: #ffcd0331;
+    --color-tertiary-opacity: #ff58602d;
+    --gradient-primary: linear-gradient(to top left, #39b385, #9be15d);
+    --gradient-secondary: linear-gradient(to top left, #ffb003, #ffcb03);
+  }
+a{
+    text-decoration: none;
+    color: inherit;
+
+
+}
+.login__container{
+  width:50%;
+  margin: auto;
+  padding: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: .5rem;
+  margin-top: 4rem;
+}
+
+  
+  .modal__form {
+    /* padding: auto; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: .5rem;
+  }
+  .modal__form p{
+    font-size: 20px;
+    margin: 15px;
+    color: rgb(88, 80, 80);
+  }
+  .modal__form img{
+    margin: 30px;
+    /* border: 1px solid red; */
+  }
+  
+  
+  .modal__form input {
+    font-size: 1rem;
+    padding: 1rem 1rem;
+    width: 60%;
+    border: 1px solid rgb(87, 77, 77);
+    border-radius: 0.2rem;
+  }
+    
+
+  .navigator{
+    position:relative;
+    font-size: 12px;
+    margin-left: 190px;
+    color: var(--color-tertiary);
+    }
+  .btn {
+    display: inline-block;
+    background-color: #5ec576;
+    font-size: 1rem;
+    font-family: inherit;
+    font-weight: 500;
+    border: none;
+    padding: 1rem 1.5rem;
+    border-radius: .2rem;
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+  .btnlogin{
+    width:60%;
+  }
+  .btn__submit,.btn__cancel{
+    display: inline-flex;
+    justify-content: end;
+    font-size: 1.2rem;
+    background-color: whitesmoke;
+    padding: .5rem 2rem;
+    border-radius: .21rem;
+    margin-top: 18px;
+    /* color: black; */
+    outline: none;
+    border: none;
+    cursor: pointer;
+
+  }
+  .btn__cancel{
+    margin-left: 56%;
+    margin-right: 20px;
+  }  
+  .btn:hover {
+    background-color: var(--color-primary-darker);
+  }
+
+
+
+  /* header */
+.navheader{
+  top:0;
+}
+.section_user{
+  /* display: flex; */
+  position: absolute;
+  right: 0;
+  width: 15%;
+  background:whitesmoke;
+  color:black;
+  margin-right: 30px;
+  overflow:visible;
+  z-index: 1;
+}
+.user_btn{
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  padding: 1px 15px;
+  display: flex;
+  flex-direction: column;
+  
+}
+.user_btn p{
+  margin-top: 5px;
+  /* border: 1px solid red; */
+
+}
+.user_btn p:hover{
+  color: #39b385;
+}
+.hidden{
+  display: none;
+}

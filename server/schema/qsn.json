@@ -1,0 +1,254 @@
+{
+	"_ID":9324507439405,
+	"subjectName":"",
+	"questions": {
+		"question1":{
+			"Q":" CSS stands for -",
+			"No":1,
+			"ans":"c",
+			"option":{
+				"a":"Cascade style sheets",
+				"b":"Color and style sheets",
+				"c":"Cascading style sheets",
+				"d":"None of the above"
+			}
+		   },
+        "question2":{
+			"Q":"Which of the following is the correct syntax for referring the external style sheet?",
+			"No":2,
+			"ans":"d",
+			"option":{
+				"a":"<style src = example.css>",
+				"b":"<style src = 'example.css' >",
+				"c":"<stylesheet> example.css </stylesheet>",
+				"d":"<link rel='stylesheet' type='text/css' href='example.css'>"
+			}
+		   },
+		 "question3":{
+			"Q":"The HTML attribute used to define the inline styles is -",
+			"No":3,
+			"ans":"a",
+			"option":{
+				"a":"style",
+				"b":"styles",
+				"c":"class",
+				"d":"None of the above"
+			}
+		   }, 
+		   "question4":{
+			"Q":"Which of the following is the correct syntax to make the background-color of all paragraph elements to yellow?",
+			"No":4,
+			"ans":"a",
+			"option":{
+				"a":"p {background-color : yellow;}",
+				"b":"p {background-color : #yellow;}",
+				"c":"all {background-color : yellow;}",
+				"d":"all p {background-color : #yellow;}"
+			}
+		   },
+		   "question5":{
+			"Q":"The HTML attribute used to define the inline styles is -",
+			"No":5,
+			"ans":"a",
+			"option":{
+				"a":"style",
+				"b":"styles",
+				"c":"class",
+				"d":"None of the above"
+			}
+		   },  
+		   "question6":{
+			"Q":"Which character is used to represent the closing of a tag in HTML?",
+			"No":6,
+			"ans":"c",
+			"option":{
+				"a":"?",
+				"b":"!",
+				"c":"/",
+				"d":"."
+			}
+		   }, 
+		   "question7":{
+			"Q":" How to add a background color in HTML?",
+			"No":7,
+			"ans":"c",
+			"option":{
+				"a":"style",
+				"b":"styles",
+				"c":"class",
+				"d":"None of the above"
+			}
+		   }, 
+		   "question8":{
+			"Q":"The HTML attribute used to define the inline styles is -",
+			"No":3,
+			"ans":"a",
+			"option":{
+				"a":"style",
+				"b":"styles",
+				"c":"class",
+				"d":"None of the above"
+			}
+		   },
+		   "question9":{
+			"Q":"The HTML attribute used to define the inline styles is -",
+			"No":3,
+			"ans":"a",
+			"option":{
+				"a":"style",
+				"b":"styles",
+				"c":"class",
+				"d":"None of the above"
+			}
+		   },  
+		   "question10":{
+			"Q":"<input> is -",
+			"No":10,
+			"ans":"b",
+			"option":{
+				"a":"a format tag",
+				"b":"an empaty tag",
+				"c":"All of the above",
+				"d":"None of the above"
+			}
+		   }, 
+		   "question11":{
+			"Q":"How to create a checkbox in html",
+			"No":11,
+			"ans":"d",
+			"option":{
+				"a":"<input type = 'checkbox'>",
+				"b":"<input type = 'button'>",
+				"c":"<input type = 'check'>",
+				"d":"None of the above"
+			}
+		   }
+	}
+}
+{
+	"_ID":9324507439405,
+	"subjectName":"NODE.JS",
+	"questions": {
+		"question1":{
+			"Q":"Which of the following statement is correct?",
+			"No":1,
+			"ans":"a",
+			"option":{
+				"a":"Nodejs is Server Side Language.",
+				"b":"Nodejs is client Side Language.",
+				"c":"Nodejs is both Server and client Side Language.",
+				"d":"None of the above"
+			}
+		   },
+        "question2":{
+			"Q":" What does the REPL stand for?",
+			"No":2,
+			"ans":"a",
+			"option":{
+				"a":"REPL stands for 'Read Eval Print Loop.'",
+				"b":"<REPL stands for 'Research Eval Print Loop >",
+				"c":"REPL stands for 'Read Earn Print Loop",
+				"d":"REPL stands for 'Read Eval Point Loop"
+			}
+		   },
+		 "question3":{
+			"Q":"Which of the following command is used to start a REPL session?",
+			"No":3,
+			"ans":"a",
+			"option":{
+				"a":"$ node",
+				"b":"$ node start",
+				"c":"$ node repl",
+				"d":"$ node console"
+			}
+		   }, 
+		   "question4":{
+			"Q":" What is Callback?",
+			"No":4,
+			"ans":"b",
+			"option":{
+				"a":"The callback is a technique in which a method calls back the caller method.",
+				"b":"The callback is an asynchronous equivalent for a function.",
+				"c":"Both of the above",
+				"d":"None of the above"
+			}
+		   },
+		   "question5":{
+			"Q":"Which of the following code print the platform of operating system?",
+			"No":5,
+			"ans":"b",
+			"option":{
+				"a":"console.log('platform : ' + os.platform);",
+				"b":"console.log('platform : ' + os.platform());",
+				"c":"console.log('platform : ' + os.getplatform);",
+				"d":"None of the above"
+			}
+		   },  
+		   "question6":{
+			"Q":"Which of the following method is used to return the current working directory of the process?",
+			"No":6,
+			"ans":"a",
+			"option":{
+				"a":"cwd",
+				"b":"cwc",
+				"c":"pwd",
+				"d":"None of the above"
+			}
+		   }, 
+		   "question7":{
+			"Q":"Which of the following statement defines Express?",
+			"No":7,
+			"ans":"c",
+			"option":{
+				"a":"Express is an application framework that provides a robust set of features to develop desktop-based applications.",
+				"b":"Express is a minimal and flexible Node.js web application framework that provides a robust set of features to develop web and mobile applications.",
+				"c":"Both",
+				"d":"None of the above"
+			}
+		   }, 
+		   "question8":{
+			"Q":"Which of the following is not a benefit of using modules in Express?",
+			"No":8,
+			"ans":"c",
+			"option":{
+				"a":"It provides a means of dividing up tasks.",
+				"b":"It provides a means of reuse of program code.",
+				"c":"It provides a means of reducing the size of the program.",
+				"d":"It provides a means of testing individual parts of the program."
+			}
+		   },
+		   "question9":{
+			"Q":"What is the best practice to do in your code to improve the performance of your application?",
+			"No":9,
+			"ans":"a",
+			"option":{
+				"a":"Using gzip compression.",
+				"b":"Don't use synchronous functions.",
+				"c":"Do logging correctly.",
+				"d":"Handle exceptions properly"
+			}
+		   },  
+		   "question10":{
+			"Q":" What is the default scope in the Node.js application?",
+			"No":10,
+			"ans":"b",
+			"option":{
+				"a":"Global",
+				"b":"Local",
+				"c":"Global Function",
+				"d":"Local to object"
+			}
+		   }, 
+		   "question11":{
+			"Q":" Which of the following engine Node in core?",
+			"No":11,
+			"ans":"a",
+			"option":{
+				"a":"Crome V8",
+				"b":"Microsoft Chakra",
+				"c":"SpiderMonkey",
+				"d":"Node En"
+			}
+		   }
+	}
+}
